@@ -1,4 +1,4 @@
-
+/*styles*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -37,4 +37,27 @@ footer {
     text-align: center;
     padding: 10px;
     margin-top: 20px;
+}
+
+/*skill cards container*/
+.cards-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*individual cards*/
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
